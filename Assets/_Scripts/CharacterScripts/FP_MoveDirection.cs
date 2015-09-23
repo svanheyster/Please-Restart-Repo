@@ -38,13 +38,14 @@ public class FP_MoveDirection : MonoBehaviour {
 			left = true;
 		
 		if (forward) {
-			if(left)
+			if (left)
 				MoveDirection = Direction.LeftForward;
 			else if (right)
 				MoveDirection = Direction.RightForward;
 			else
 				MoveDirection = Direction.Forward;
-		} else if (backward) {
+		}
+		else if (backward) {
 			if(left)
 				MoveDirection = Direction.LeftBackward;
 			else if (right)

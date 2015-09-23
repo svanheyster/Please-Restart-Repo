@@ -5,11 +5,7 @@ public class FP_Camera : MonoBehaviour {
 
 	public static FP_Camera Instance;
 	public Transform TargetLookAt;
-	public float Distance = 1.5f;
-	public float DistanceMin = 1.5f;
-	public float DistanceMax = 3f;
-	public float DistanceSmooth = 0.05f;
-	public float DistanceResumeSmooth = 1f;
+	public float Distance = 0.1f;
 
 	public float X_MouseSensitivity = 5f;
 	public float Y_MouseSensitivity = 5f;
@@ -42,7 +38,6 @@ public class FP_Camera : MonoBehaviour {
 
 	void Start () 
 	{
-		Distance = Mathf.Clamp (Distance, DistanceMin, DistanceMax);
 		startDistance = Distance;
 		Reset ();
 	}
@@ -70,16 +65,6 @@ public class FP_Camera : MonoBehaviour {
 
 		//Clamp (limit) mouse Y
 		mouseY = Helper.ClampAngle (mouseY, Y_MinLimit, Y_MaxLimit);
-
-		if(Input.GetAxis("Mouse ScrollWheel") < -deadZone || Input.GetAxis("Mouse ScrollWheel") > deadZone)
-		{
-			desiredDistance = Mathf.Clamp(
-				Distance - Input.GetAxis("Mouse ScrollWheel")* MouseWheelSensitivity,
-				DistanceMin, DistanceMax);
-
-			preOccludedDistance = desiredDistance;
-			distanceSmooth = DistanceSmooth;
-		}
 	}
 
 	void CalculateDesiredPosition()
@@ -115,7 +100,6 @@ public class FP_Camera : MonoBehaviour {
 				Distance = nearestDistance - Camera.main.nearClipPlane;
 
 			desiredDistance = Distance;
-			distanceSmooth = DistanceResumeSmooth;
 		}
 
 		return isOccluded;

@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class ObjectPressed : MonoBehaviour {
+public class ObjectPressedTemplate : MonoBehaviour {
 
 	public Text UIText;
 

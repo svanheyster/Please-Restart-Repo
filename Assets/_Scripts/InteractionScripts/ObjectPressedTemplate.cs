@@ -4,10 +4,11 @@ using System.Collections;
 
 public class ObjectPressedTemplate : MonoBehaviour {
 
-	public Text UIText;
+	private Text UIText;
 
 	// Use this for initialization
 	void Start () {
+		UIText = GameObject.Find ("InteractiveText").GetComponent<Text>();
 	}
 	
 	// Update is called once per frame

@@ -6,6 +6,8 @@ public class FP_MouseLock : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Cursor.lockState = CursorLockMode.Locked;
+		Cursor.lockState = CursorLockMode.None;
+		Cursor.lockState = CursorLockMode.Locked;
 		Cursor.visible = false;
 	}
 	

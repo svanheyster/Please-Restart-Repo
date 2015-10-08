@@ -2,12 +2,13 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class ObjectPressed : MonoBehaviour {
+public class ObjectPressedTemplate : MonoBehaviour {
 
-	public Text UIText;
+	private Text UIText;
 
 	// Use this for initialization
 	void Start () {
+		UIText = GameObject.Find("InteractionText").GetComponent<Text>();
 	}
 	
 	// Update is called once per frame

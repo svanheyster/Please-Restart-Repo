@@ -6,17 +6,18 @@ public class ObjectPickUp : MonoBehaviour {
 	public Camera camera;
 	private RaycastHit hit;
 	bool carry = false;
+	private float shit = 0f;
 
 	void FixedUpdate() 
 	{
-		if (Input.GetMouseButtonUp (0)) {
+		if (Input.GetKeyDown (KeyCode.E)) {
 			if(carry){
 				carry = false;
 				hit.rigidbody.useGravity = true;
 				hit = new RaycastHit();
 			} else {
 				//if(Input.mousePosition.x < Screen.width / 2){
-					Physics.Raycast (camera.ScreenPointToRay(Input.mousePosition), out hit, 100f);
+				Physics.Raycast (camera.ScreenPointToRay(Vector3(0.5,0.5,0)), out hit, 100f);
 					Debug.Log(hit.transform.gameObject.name);
 
 					if(Vector3.Distance(transform.position, hit.transform.gameObject.transform.position) < 1){

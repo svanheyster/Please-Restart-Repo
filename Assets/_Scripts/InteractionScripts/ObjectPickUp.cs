@@ -7,7 +7,8 @@ public class ObjectPressed : MonoBehaviour {
 	void Start () {
 	
 	}
-	
+
+	//test
 	// Update is called once per frame
 	void Update () {
 	

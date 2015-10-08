@@ -1,16 +1,26 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ObjectPressed : MonoBehaviour {
+public class ObjectPickUp : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
+	float distance = 1f;
+	Transform camera;
+	RaycastHit hit;
 
-	//test
-	// Update is called once per frame
-	void Update () {
-	
+	void LateUpdate()
+	{
+		if (Input.GetKey (KeyCode.E)) 
+		{
+			camera = Camera.main.transform;
+			if(Physics.Raycast(new Ray(camera.position, camera.forward), out hit, 100)){
+				if(hit.collider.gameObject.name.Equals("orangeBox")){
+
+					Vector3 mousePosition = new Vector3 (Input.mousePosition.x, Input.mousePosition.y, distance);
+					Vector3 objPosition = Camera.main.ScreenToWorldPoint (mousePosition);
+
+					transform.position = objPosition;
+				}
+			}
+		}
 	}
 }

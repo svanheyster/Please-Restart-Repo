@@ -23,7 +23,7 @@ public class ObjectPickUp : MonoBehaviour {
 						hit.rigidbody.useGravity = false;
 						carry = true;
 					}
-				}
+				//}
 			}
 		}
 

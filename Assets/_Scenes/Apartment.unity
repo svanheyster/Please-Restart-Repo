@@ -340,6 +340,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1079959377}
   - 114: {fileID: 1079959376}
+  - 114: {fileID: 1079959378}
   m_Layer: 0
   m_Name: InventoryLoader
   m_TagString: Untagged
@@ -370,6 +371,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+--- !u!114 &1079959378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1079959375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43d150f66404b459ca099ed2615593da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventorySlot: {fileID: 168932, guid: 449503fb19e85e9418ef62aafbf75640, type: 2}
+  inventoryItem: {fileID: 160898, guid: 49f0dacb894460442b3ea331a40d3ac8, type: 2}
+  slots: []
 --- !u!1 &1277117904
 GameObject:
   m_ObjectHideFlags: 0

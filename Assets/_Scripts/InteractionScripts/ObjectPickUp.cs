@@ -12,7 +12,7 @@ public class ObjectPickUp : MonoBehaviour {
 		if (Input.GetKey (KeyCode.E)) 
 		{
 			camera = Camera.main.transform;
-			if(Physics.Raycast(new Ray(camera.position, camera.forward), out hit, 200)){
+			if(Physics.Raycast(new Ray(camera.position, camera.forward), out hit, 100)){
 				if(hit.collider.gameObject.name.Equals("orangeBox")){
 
 					Vector3 mousePosition = new Vector3 (Input.mousePosition.x, Input.mousePosition.y, distance);

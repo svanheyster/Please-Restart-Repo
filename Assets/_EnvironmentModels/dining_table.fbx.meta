@@ -1,42 +1,36 @@
 fileFormatVersion: 2
-guid: 64593e62d09495242b877850b2a23d6e
-timeCreated: 1446504602
+guid: 25f69c86caaf42a4c950ed5217c37b73
+timeCreated: 1446507273
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: console
-    100002: //RootNode
-    100004: game
-    100006: game_on_table
-    100008: small table
-    100010: tv
-    400000: console
-    400002: //RootNode
-    400004: game
-    400006: game_on_table
-    400008: small table
-    400010: tv
-    2300000: console
-    2300002: game
-    2300004: game_on_table
-    2300006: small table
-    2300008: tv
-    3300000: console
-    3300002: game
-    3300004: game_on_table
-    3300006: small table
-    3300008: tv
-    4300000: game
-    4300002: console
-    4300004: tv
-    4300006: small table
-    4300008: game_on_table
-    6400000: console
-    6400002: game
-    6400004: game_on_table
-    6400006: small table
-    6400008: tv
+    100000: bowl
+    100002: chair
+    100004: //RootNode
+    100006: dining_table
+    100008: milk_carton
+    400000: bowl
+    400002: chair
+    400004: //RootNode
+    400006: dining_table
+    400008: milk_carton
+    2300000: bowl
+    2300002: chair
+    2300004: dining_table
+    2300006: milk_carton
+    3300000: bowl
+    3300002: chair
+    3300004: dining_table
+    3300006: milk_carton
+    4300000: bowl
+    4300002: milk_carton
+    4300004: chair
+    4300006: dining_table
+    6400000: bowl
+    6400002: chair
+    6400004: dining_table
+    6400006: milk_carton
   materials:
     importMaterials: 1
     materialName: 0

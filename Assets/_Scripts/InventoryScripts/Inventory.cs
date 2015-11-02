@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -27,6 +28,8 @@ public class Inventory : MonoBehaviour {
 		}
 
 		AddItem (0);
+		AddItem (1);
+		AddItem (10);
 	}
 
 	public void AddItem(int id)
@@ -39,7 +42,9 @@ public class Inventory : MonoBehaviour {
 				items[i] = itemToAdd;
 				GameObject itemObj = Instantiate(inventoryItem);
 				itemObj.transform.SetParent(slots[i].transform);
+				itemObj.GetComponent<Image>().sprite = itemToAdd.Sprite;
 				itemObj.transform.position = Vector2.zero;
+				break;
 			}
 		}
 	}

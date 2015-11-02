@@ -3,150 +3,175 @@
 		"id": 0,
 		"title": "Fish",
 		"weight": 2,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_fish"
 	},
 	{
 		"id": 1,
 		"title": "Jens the Dog",
 		"weight": 6,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_jensthedog"
 	},	
 	{
 		"id": 2,
 		"title": "TV",
 		"weight": 1,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_tv"
 	},
 	{
 		"id": 3,
 		"title": "Game Console",
 		"weight": 6,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_gameconsole"
 	},	
 	{
 		"id": 4,
 		"title": "Chair",
 		"weight": 1,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_chair"
 	},
 	{
 		"id": 5,
 		"title": "Milk Carton",
 		"weight": 6,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_milkcarton"
 	},	
 	{
 		"id": 6,
 		"title": "Cereal Box",
 		"weight": 1,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_cerealbox"
 	},
 	{
 		"id": 7,
 		"title": "Comic 1",
 		"weight": 6,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_comic1"
 	},	
 	{
 		"id": 8,
 		"title": "Comic 2",
 		"weight": 1,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_comic2"
 	},
 	{
 		"id": 9,
 		"title": "Comic 3",
 		"weight": 6,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_comic3"
 	},	
 	{
 		"id": 10,
 		"title": "Game 1",
 		"weight": 1,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_game1"
 	},
 	{
 		"id": 11,
 		"title": "Game 2",
 		"weight": 6,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_game2"
 	},	
 	{
 		"id": 12,
 		"title": "Game 3",
 		"weight": 1,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_game3"
 	},
 	{
 		"id": 13,
 		"title": "Game 4",
 		"weight": 6,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_game4"
 	},	
 	{
 		"id": 14,
 		"title": "Game 5",
 		"weight": 1,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_game5"
 	},
 	{
 		"id": 15,
 		"title": "Bowl",
 		"weight": 6,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_bowl"
 	},	
 	{
 		"id": 16,
 		"title": "Dog Bowl",
 		"weight": 1,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_dogbowl"
 	},
 	{
 		"id": 17,
 		"title": "Spoon",
 		"weight": 6,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_spoon"
 	},	
 	{
 		"id": 18,
 		"title": "Fork",
 		"weight": 1,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_fork"
 	},
 	{
 		"id": 19,
 		"title": "Knife",
 		"weight": 6,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_knife"
 	},	
 	{
 		"id": 20,
 		"title": "Magazine 1",
 		"weight": 1,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_magazine1"
 	},
 	{
 		"id": 21,
 		"title": "Magazine 2",
 		"weight": 6,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_magazine2"
 	},	
 	{
 		"id": 22,
 		"title": "Magazine 3",
 		"weight": 1,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_magazine3"
 	},
 	{
 		"id": 23,
 		"title": "Toiletpaper",
 		"weight": 6,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_toiletpaper"
 	},	
 	{
 		"id": 24,
 		"title": "Toothbrush & Toothpaste",
 		"weight": 1,
-		"description": "Placeholder"
+		"description": "Placeholder",
+		"slug": "_toothbrushandtoothpaste"
 	}
 ]

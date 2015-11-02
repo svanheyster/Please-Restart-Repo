@@ -1,0 +1,152 @@
+[
+	{
+		"id": 0,
+		"title": "Fish",
+		"weight": 2,
+		"description": "Placeholder"
+	},
+	{
+		"id": 1,
+		"title": "Jens the Dog",
+		"weight": 6,
+		"description": "Placeholder"
+	},	
+	{
+		"id": 2,
+		"title": "TV",
+		"weight": 1,
+		"description": "Placeholder"
+	},
+	{
+		"id": 3,
+		"title": "Game Console",
+		"weight": 6,
+		"description": "Placeholder"
+	},	
+	{
+		"id": 4,
+		"title": "Chair",
+		"weight": 1,
+		"description": "Placeholder"
+	},
+	{
+		"id": 5,
+		"title": "Milk Carton",
+		"weight": 6,
+		"description": "Placeholder"
+	},	
+	{
+		"id": 6,
+		"title": "Cereal Box",
+		"weight": 1,
+		"description": "Placeholder"
+	},
+	{
+		"id": 7,
+		"title": "Comic 1",
+		"weight": 6,
+		"description": "Placeholder"
+	},	
+	{
+		"id": 8,
+		"title": "Comic 2",
+		"weight": 1,
+		"description": "Placeholder"
+	},
+	{
+		"id": 9,
+		"title": "Comic 3",
+		"weight": 6,
+		"description": "Placeholder"
+	},	
+	{
+		"id": 10,
+		"title": "Game 1",
+		"weight": 1,
+		"description": "Placeholder"
+	},
+	{
+		"id": 11,
+		"title": "Game 2",
+		"weight": 6,
+		"description": "Placeholder"
+	},	
+	{
+		"id": 12,
+		"title": "Game 3",
+		"weight": 1,
+		"description": "Placeholder"
+	},
+	{
+		"id": 13,
+		"title": "Game 4",
+		"weight": 6,
+		"description": "Placeholder"
+	},	
+	{
+		"id": 14,
+		"title": "Game 5",
+		"weight": 1,
+		"description": "Placeholder"
+	},
+	{
+		"id": 15,
+		"title": "Bowl",
+		"weight": 6,
+		"description": "Placeholder"
+	},	
+	{
+		"id": 16,
+		"title": "Dog Bowl",
+		"weight": 1,
+		"description": "Placeholder"
+	},
+	{
+		"id": 17,
+		"title": "Spoon",
+		"weight": 6,
+		"description": "Placeholder"
+	},	
+	{
+		"id": 18,
+		"title": "Fork",
+		"weight": 1,
+		"description": "Placeholder"
+	},
+	{
+		"id": 19,
+		"title": "Knife",
+		"weight": 6,
+		"description": "Placeholder"
+	},	
+	{
+		"id": 20,
+		"title": "Magazine 1",
+		"weight": 1,
+		"description": "Placeholder"
+	},
+	{
+		"id": 21,
+		"title": "Magazine 2",
+		"weight": 6,
+		"description": "Placeholder"
+	},	
+	{
+		"id": 22,
+		"title": "Magazine 3",
+		"weight": 1,
+		"description": "Placeholder"
+	},
+	{
+		"id": 23,
+		"title": "Toiletpaper",
+		"weight": 6,
+		"description": "Placeholder"
+	},	
+	{
+		"id": 24,
+		"title": "Toothbrush & Toothpaste",
+		"weight": 1,
+		"description": "Placeholder"
+	}
+]

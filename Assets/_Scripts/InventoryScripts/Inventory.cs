@@ -28,8 +28,15 @@ public class Inventory : MonoBehaviour {
 		}
 
 		AddItem (0);
-		AddItem (1);
-		AddItem (10);
+		AddItem (0);
+		AddItem (0);
+		AddItem (0);
+		AddItem (0);
+		AddItem (0);
+		AddItem (0);
+		AddItem (0);
+		AddItem (0);
+		AddItem (0);
 	}
 
 	public void AddItem(int id)
@@ -53,6 +60,8 @@ public class Inventory : MonoBehaviour {
 					itemObj.transform.position = Vector2.zero;
 					itemObj.GetComponent<Image> ().sprite = itemToAdd.Sprite;
 					itemObj.name = itemToAdd.Title;
+					ItemData data = slots[i].transform.GetChild(0).GetComponent<ItemData>();
+					data.amount = 1;
 					break;
 				}
 			}

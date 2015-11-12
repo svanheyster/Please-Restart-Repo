@@ -56,6 +56,7 @@ public class Inventory : MonoBehaviour {
 				if (items [i].ID == -1) {
 					items [i] = itemToAdd;
 					GameObject itemObj = Instantiate (inventoryItem);
+					itemObj.GetComponent<ItemData>().item = itemToAdd;
 					itemObj.transform.SetParent (slots [i].transform);
 					itemObj.transform.position = Vector2.zero;
 					itemObj.GetComponent<Image> ().sprite = itemToAdd.Sprite;

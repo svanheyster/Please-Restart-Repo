@@ -5,10 +5,13 @@ using System.Collections;
 public class ObjectPressedTemplate : MonoBehaviour {
 
 	private Text UIText;
+	private Inventory inv;
+
 
 	// Use this for initialization
 	void Start () {
 		UIText = GameObject.Find ("InteractiveText").GetComponent<Text>();
+		inv = GameObject.Find ("InventoryLoader").GetComponent<Inventory> ();
 	}
 	
 	// Update is called once per frame
@@ -24,7 +27,10 @@ public class ObjectPressedTemplate : MonoBehaviour {
 	}
 
 	public void OnMouseOver(){
-		if (Input.GetKeyDown (KeyCode.E))
+		if (Input.GetKeyDown (KeyCode.E)) 
+		{
 			Debug.Log ("GameObject: " + this.gameObject.name + " was clicked.");
+			inv.AddItem (5);
+		}
 	}
 }

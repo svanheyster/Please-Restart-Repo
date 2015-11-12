@@ -425,7 +425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventorySlot: {fileID: 118690, guid: 449503fb19e85e9418ef62aafbf75640, type: 2}
-  inventoryItem: {fileID: 148814, guid: 49f0dacb894460442b3ea331a40d3ac8, type: 2}
+  inventoryItem: {fileID: 112348, guid: 7739a3b35656e0a47baa9a144e035dbe, type: 2}
   slots: []
 --- !u!1 &1277117904
 GameObject:

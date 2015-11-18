@@ -30,7 +30,7 @@ public class ObjectPressedTemplate : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.E)) 
 		{
 			Debug.Log ("GameObject: " + this.gameObject.name + " was clicked.");
-			inv.AddItem (5);
+			inv.AddItem (4);
 		}
 	}
 }

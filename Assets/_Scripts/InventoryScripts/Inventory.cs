@@ -109,6 +109,12 @@ public class Inventory : MonoBehaviour {
 		{
 			if(items[selectedSlot].ID != -1)
 			{
+				/* Beginning of the dropping mechanic!
+				var pos = new Vector3(0,0,0);
+				var rot = Quaternion.identity;
+				Instantiate(GameObject.Find("_milkcarton"), pos, rot); // The Instantiate command takes a GameObject
+				*/
+
 				items[selectedSlot] = new Item();
 				Destroy(slots[selectedSlot].transform.GetChild(0).gameObject);
 				Debug.Log ("Deleted Item" + selectedSlot);
